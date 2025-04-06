@@ -1,4 +1,3 @@
-My CS Course for interested Students
+CS Course
 
 
-Email : pranayshetty.90@gmail.com
