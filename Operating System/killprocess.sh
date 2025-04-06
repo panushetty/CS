@@ -1,3 +1,7 @@
+#Operating System Design: Build a Process Management Shell Script
+#Task: Write a shell script (e.g., Bash) to list all running processes and let the user kill one by entering its PID.
+#Instructions: Use ps to list processes and kill to terminate. Add a simple CLI for PID input.
+#Tools: Unix-like system (Linux, macOS, WSL).
 echo "Hi, this program will now display running processes"
 sleep 3
 ps aux
