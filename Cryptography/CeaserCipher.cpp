@@ -1,3 +1,11 @@
+/*
+Cryptography: Implement a Caesar Cipher
+Task: Write functions to encrypt/decrypt a message with a user-defined shift (e.g., shift 3 on "ATTACK AT DAWN").
+Instructions: Handle uppercase letters, preserve non-letters, test it.
+Tools: Any language (C++ fits your style).
+*/
+
+
 #include <iostream>
 #include <cctype>
 #include<string>
