@@ -1,0 +1,46 @@
+vboxuser@Ubuntu:~/Networking/Broadcast$ g++ -o BroadCastM BroadCastMulti.cpp 
+vboxuser@Ubuntu:~/Networking/Broadcast$ ./BroadCastM 
+Server File Descriptor: 3
+New Connection Detected
+Client connected: 4
+New Connection Detected
+Client connected: 5
+New Connection Detected
+Client connected: 6
+Broadcasting -> Client 4 :I am Client1
+
+Broadcasting -> Client 5 :Hello I am Client 2
+
+Broadcasting -> Client 6 :Hi Guys I am Client 3
+
+
+vboxuser@Ubuntu:~/Networking/Broadcast$ telnet 127.0.0.1 9999
+Trying 127.0.0.1...
+Connected to 127.0.0.1.
+Escape character is '^]'.
+I am Client1
+Client 5 :Hello I am Client 2
+
+vboxuser@Ubuntu:~/Networking/Broadcast$ telnet 127.0.0.1 9999
+Trying 127.0.0.1...
+Connected to 127.0.0.1.
+Escape character is '^]'.
+Client 4 :I am Client1
+Hello I am Client 2
+
+
+
+vboxuser@Ubuntu:~/Networking/Broadcast$ telnet 127.0.0.1 9999
+Trying 127.0.0.1...
+Connected to 127.0.0.1.
+Escape character is '^]'.
+Client 4 :I am Client1
+Client 5 :Hello I am Client 2
+Hi Guys I am Client 3
+
+
+
+
+
+
+
